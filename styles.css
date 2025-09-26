@@ -1,0 +1,25 @@
+.sudoku-game {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.sudoku-game .grid {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 3px;
+    margin: 20px 0;
+}
+.sudoku-game .cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+.sudoku-game button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
